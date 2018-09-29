@@ -9,8 +9,12 @@ class Cards extends Component {
   };
   render() {
     return (
-      <div className="drivers__section grey">
+      <div className="drivers__section">
         <div className="container">
+          <header className="header__wrapper">
+            <h2 className="black-text center-align"> Pick A Ride.</h2>
+            <hr className="custom__line" />
+          </header>
           <div className="card__container">
             <div class="card horizontal z-depth-2 card__rounded">
               <div className="card-img">
@@ -91,10 +95,13 @@ class Cards extends Component {
                       </i>
                     </li>
                   </ul>
-                  {/*TODO: progress bar */}
-                  <a href="" className="btn black waves-effect waves-light">
+                  <h5 className="grey-text"> Capacity: 3/5</h5>
+                  <div className="progress">
+                    <div className="determinate" style={{ width: "70%" }} />
+                  </div>
+                  <a href="" className="btn green waves-effect waves-light">
                     {" "}
-                    Book Now !
+                    Book Now
                   </a>
                 </div>
               </div>
@@ -179,9 +186,13 @@ class Cards extends Component {
                       </i>
                     </li>
                   </ul>
-                  <a href="" className="btn black waves-effect waves-light">
+                  <h5 className="grey-text"> Capacity: 3/5</h5>
+                  <div className="progress">
+                    <div className="determinate" style={{ width: "70%" }} />
+                  </div>
+                  <a href="" className="btn green waves-effect waves-light">
                     {" "}
-                    Book Now !
+                    Book Now
                   </a>
                 </div>
               </div>

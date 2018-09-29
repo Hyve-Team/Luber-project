@@ -24,6 +24,14 @@ h1, h2, h3, h4, h5 {
   margin: 0 auto;
   display: block; }
 
+.header__wrapper h2 {
+  padding: 0.5em 0; }
+.header__wrapper .custom__line {
+  padding: 0.2em;
+  width: 10%;
+  background: #4CAF50;
+  border: 0; }
+
 .card__container {
   padding: 5em 0 2em 0; }
 
