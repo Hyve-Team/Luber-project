@@ -1,5 +1,15 @@
 @import url('https://fonts.googleapis.com/css?family=Maven+Pro')
+
+// variables
 $primary__color: #4CAF50
+$white: #ffffff
+$box__shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23)
+$box__shadow__hover: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22)
+$breakpoint__tablet: 768px
+$breakpoint__mobile: 360px
+$breakpoint__mobile__lg: 420px
+$breakpoint__mobile__iphone: 320px
+// End of variables
 body
     color: #ffffff
     padding: 0
@@ -8,7 +18,7 @@ body
 h1,h2,h3,h4,h5
     margin: 0px
 .typed__text
-    margin: 8em auto
+    margin: 4em auto
     text-align: center
     .sc-bdVaJa   
         font-size: 32px
@@ -21,6 +31,12 @@ h1,h2,h3,h4,h5
     text-align: center
     margin: 0 auto
     display: block
+    border-radius: 35px
+    padding: 15px 25px
+    border: 0
+    text-decoration: none
+    color: $white
+    box-shadow: $box__shadow
 .header__wrapper
     h2
         padding: .5em 0
@@ -41,4 +57,7 @@ h1,h2,h3,h4,h5
         -webkit-user-select: none
         li
             display: inline-block
-                
+
+@media (min-width: $breakpoint__mobile) 
+    .typed__text
+        margin-top: 3em

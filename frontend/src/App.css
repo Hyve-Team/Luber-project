@@ -9,7 +9,7 @@ h1, h2, h3, h4, h5 {
   margin: 0px; }
 
 .typed__text {
-  margin: 8em auto;
+  margin: 4em auto;
   text-align: center; }
   .typed__text .sc-bdVaJa {
     font-size: 32px;
@@ -22,7 +22,13 @@ h1, h2, h3, h4, h5 {
 .btn__hero {
   text-align: center;
   margin: 0 auto;
-  display: block; }
+  display: block;
+  border-radius: 35px;
+  padding: 15px 25px;
+  border: 0;
+  text-decoration: none;
+  color: #ffffff;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23); }
 
 .header__wrapper h2 {
   padding: 0.5em 0; }
@@ -46,5 +52,9 @@ h1, h2, h3, h4, h5 {
   -webkit-user-select: none; }
   #star__rating li {
     display: inline-block; }
+
+@media (min-width: 360px) {
+  .typed__text {
+    margin-top: 3em; } }
 
 /*# sourceMappingURL=App.css.map */

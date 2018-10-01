@@ -6,14 +6,14 @@ const HeroSection = () => {
   return (
     <div className="hero__section">
       <div className="row">
-        <div className="col s6">
+        <div className="col s12 m6 l6">
           <div className="img__wrapper">
             <img src={taxi} alt="" className="responsive-img" />
           </div>
         </div>
-        <div className="col s6">
+        <div className="col s12 m6 l6">
           <div className="">
-            <div className="typed__text">
+            <div className="typed__text flow-text">
               <Typed
                 strings={[
                   "Search for products",
@@ -25,7 +25,7 @@ const HeroSection = () => {
                 loop
               />
             </div>
-            <button className="waves-effect waves-light btn btn__hero green center-align">
+            <button className="waves-effect waves-light btn__hero green center-align">
               {" "}
               Start Booking
             </button>
