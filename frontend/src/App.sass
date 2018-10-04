@@ -112,7 +112,31 @@ h1,h2,h3,h4,h5
     border: 0
 .collection-header
     border: 0
+.highlight
+    tbody
+        tr
+            transition: all 300ms ease-in
+            &:hover
+                background: $primary__color !important
+                color: $white
+                transition: all 300ms ease-in-out
+                border: 0
 /* STYLING FOR TRANSACTION PAGE */
+
+/* STYLING FOR THE FOOD HERO LANDING PAGE*/
+
+.food__hero
+    position: relative
+    width: 100%
+    height: 400px
+    min-height: 350px
+    color: $white
+    text-align: center
+    letter-spacing: .3em
+    line-height: 1em
+    .hero__content
+        padding-top: 3em
+/* STYLING FOR THE FOOD HERO LANDING PAGE*/
 @media (min-width: $breakpoint__mobile) 
     .choice__wrapper
         margin: .5em 0

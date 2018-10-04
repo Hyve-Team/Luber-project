@@ -1,10 +1,12 @@
 import React, { Component } from "react";
-
+import FoodHero from "../layouts/foodHero";
+import FoodBookings from "../layouts/foodBookings";
 class Lmufoods extends Component {
   render() {
     return (
       <div>
-        <h2 className="black-text">LMU FOODS AVAILABLE</h2>
+        <FoodHero />
+        <FoodBookings />
       </div>
     );
   }

@@ -15,7 +15,7 @@ class TransHistory extends Component {
             </li>
           </ul>
 
-          <table className="highlight">
+          <table className="highlight striped">
             <thead>
               <tr>
                 <th>Driver's Name</th>

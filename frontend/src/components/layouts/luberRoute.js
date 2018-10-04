@@ -12,12 +12,10 @@ const LuberRoute = () => {
           </Link>
         </div>
         <div className="card-action">
-          <Link
-            to="/Bookings"
-            className="btn waves-effect waves-light green center-align1 ASTRYUIOP[]
-            "
-          >
-            LMUtransit
+          <Link to="/Bookings">
+            <button className="btn__hero waves-effect waves-light green center-align">
+              LMUTransit
+            </button>
           </Link>
         </div>
       </div>

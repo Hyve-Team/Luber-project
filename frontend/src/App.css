@@ -113,7 +113,29 @@ h1, h2, h3, h4, h5 {
 .collection-header {
   border: 0; }
 
+.highlight tbody tr {
+  transition: all 300ms ease-in; }
+  .highlight tbody tr:hover {
+    background: #4CAF50 !important;
+    color: #ffffff;
+    transition: all 300ms ease-in-out;
+    border: 0; }
+
 /* STYLING FOR TRANSACTION PAGE */
+/* STYLING FOR THE FOOD HERO LANDING PAGE */
+.food__hero {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  min-height: 350px;
+  color: #ffffff;
+  text-align: center;
+  letter-spacing: 0.3em;
+  line-height: 1em; }
+  .food__hero .hero__content {
+    padding-top: 3em; }
+
+/* STYLING FOR THE FOOD HERO LANDING PAGE */
 @media (min-width: 360px) {
   .choice__wrapper {
     margin: 0.5em 0; }

@@ -13,8 +13,10 @@ const LMUFOOD = () => {
           </Link>
         </div>
         <div className="card-action">
-          <Link to="/lmufoods" className="btn waves-effect waves-light green">
-            LMUfoods
+          <Link to="/lmufoods">
+            <button className="btn__hero waves-effect waves-light green center-align">
+              LMUFoods
+            </button>
           </Link>
         </div>
       </div>
