@@ -17,7 +17,7 @@ class Cards extends Component {
             <hr className="custom__line" />
           </header>
           <div className="card__container">
-            <div class="card horizontal z-depth-2 card__rounded">
+            <div className="card horizontal z-depth-2 card__rounded">
               <div className="row">
                 <div className="col s12 m6 l6">
                   <div className="card-img">
@@ -30,7 +30,7 @@ class Cards extends Component {
                   </div>
                 </div>
                 <div className="col s12 m6 l6">
-                  <div class="card-stacked">
+                  <div className="card-stacked">
                     <div className="card-content">
                       <h4 className="grey-text">Mr Bode Thomos</h4>
                       <div className="divider" />
@@ -117,7 +117,7 @@ class Cards extends Component {
               </div>
             </div>{" "}
             {/*  end of card*/}
-            <div class="card horizontal z-depth-2 card__rounded">
+            <div className="card horizontal z-depth-2 card__rounded">
               <div className="row">
                 <div className="col s12 m6 l6">
                   <div className="card-img">
@@ -130,7 +130,7 @@ class Cards extends Component {
                   </div>
                 </div>
                 <div className="col s12 m6 l6">
-                  <div class="card-stacked">
+                  <div className="card-stacked">
                     <div className="card-content">
                       <h4 className="grey-text">Mr Bode Thomos</h4>
                       <div className="divider" />

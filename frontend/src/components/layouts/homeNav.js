@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 export default () => {
   return (
     <nav>
-      <div class="nav-wrapper white">
-        <Link to="/" class="brand-logo center black-text">
+      <div className="nav-wrapper white">
+        <Link to="/" className="brand-logo center black-text">
           LMU Bookings
         </Link>
       </div>

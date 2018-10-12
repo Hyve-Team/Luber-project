@@ -4,14 +4,14 @@ export default () => {
   return (
     <div className="navbar-fixed">
       <nav>
-        <div class="nav-wrapper white">
-          <Link to="/" class="brand-logo center black-text">
+        <div className="nav-wrapper white">
+          <Link to="/" className="brand-logo center black-text">
             Luber
           </Link>
           <Link to="/#!" className="sidenav-trigger" data-target="mobile-demo">
             <i className="material-icons black-text"> menu</i>
           </Link>
-          <ul id="nav-mobile" class="right hide-on-med-and-down black-text">
+          <ul id="nav-mobile" className="right hide-on-med-and-down black-text">
             <li>
               <Link to="/" className="black-text">
                 Home

@@ -6,10 +6,7 @@ class TransHistory extends Component {
       <div>
         <TransportNavigation />
         <div className="container">
-          <ul
-            className="collection with-header"
-            style={{ "margin-top": "5em" }}
-          >
+          <ul className="collection with-header" style={{ marginTop: "5em" }}>
             <li className="collection-header green white-text">
               <h4>Recent Transactions</h4>
             </li>

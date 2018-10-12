@@ -1,12 +1,10 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-import TransportNavigation from "../layouts/transportNav";
 import avatar from "../../img/user.svg";
-export default class Account extends Component {
+class Account extends Component {
   render() {
     return (
       <div>
-        <TransportNavigation />
         <div className="col s12 m12 l12">
           <div className="container">
             <div className="card card__form">
@@ -15,7 +13,7 @@ export default class Account extends Component {
                   <Link className="fa fa-facebook" to="#" />
                 </div>
               </div>
-              <div class="avatar">
+              <div className="avatar">
                 <img
                   src={avatar}
                   alt="user avatar"
@@ -55,3 +53,4 @@ export default class Account extends Component {
     );
   }
 }
+export default Account;

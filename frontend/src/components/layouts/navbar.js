@@ -9,7 +9,10 @@ class Navbar extends Component {
     let Navigation;
     if (window.location.pathname === "/") {
       Navigation = <HomeNavigation />;
-    } else if (window.location.pathname === "/Bookings") {
+    } else if (
+      window.location.pathname === "/Bookings" ||
+      window.location.pathname === "/Account"
+    ) {
       Navigation = (
         <div>
           <TransportNavigation />
@@ -19,7 +22,7 @@ class Navbar extends Component {
       Navigation = <FoodNavigation />;
     }
     const sidemain = (
-      <ul class="sidenav" id="mobile-demo">
+      <ul className="sidenav" id="mobile-demo">
         <li>
           <Link to="/">Home</Link>
         </li>
@@ -35,7 +38,7 @@ class Navbar extends Component {
       </ul>
     );
     const sideBarFood = (
-      <ul class="sidenav" id="mobile-demo">
+      <ul className="sidenav" id="mobile-demo">
         <li>
           <Link to="/">Home</Link>
         </li>
@@ -51,7 +54,11 @@ class Navbar extends Component {
     return (
       <div>
         {Navigation}
-        {window.location.pathname === "/Bookings" ? sidemain : sideBarFood}
+        {window.location.pathname === "/Bookings" ||
+        window.location.pathname === "/Account" ||
+        window.location.pathname === "/History"
+          ? sidemain
+          : sideBarFood}
       </div>
     );
   }
